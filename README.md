@@ -127,17 +127,16 @@ movie-matrix-completion/
 ├── EDA.py              # 探索性数据分析与预处理
 ├── convex.py           # 凸优化方法实现
 ├── nonconvex.py        # 非凸优化方法实现
-├── data/               # MovieLens 20M数据集（需自行下载）
-│   ├── ml-20m/        # 解压后的原始数据
-│   └── processed/     # 预处理后的数据
+├──  ml-20m/              # MovieLens 20M数据集文件夹（需自行下载）        
+├── processed     # 预处理后的数据(运行EDA.py文件后生成）
 ├── results/            # 实验结果与图表
 │   ├── figures/       # 可视化图表
-│   └── logs/          # 实验日志
+│   ├──运行结果(convex).txt
+│   ├──运行结果(nonconvex).txt
 ├── requirements.txt    # Python依赖包
 ├── .gitignore         # Git忽略配置
 ├── LICENSE            # MIT许可证
 └── README.md          # 项目说明
-```
 
 ## 📊 预期结果
 
