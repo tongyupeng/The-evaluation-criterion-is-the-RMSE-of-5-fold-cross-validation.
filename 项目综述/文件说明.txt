@@ -1,0 +1,16 @@
+.py文件：
+	EDA.py：探索性数据分析过程（运行时间短）
+	convex.py：凸优化五折RMSE（运行时间长，一两个小时）
+	nonconvex.py：非凸优化五折RMSE处理过程（运行时间长，数小时）
+.png文件：
+	Genome Relevance Distribution(EDA).png：基于'genome-scores.csv'，movie与tag相关性分布
+	Rating Distribution(EDA).png：评分情况分布
+	Rating per year(EDA).png：每年评分数量分布
+	
+
+.txt文件：
+	环境依赖.txt：py文件中调包版本
+	运行结果(convex).txt：convex.py运行结果
+	运行结果(nonconvex).txt：nonconvex.py运行结果
+
+数据集：ml-20m文件夹
