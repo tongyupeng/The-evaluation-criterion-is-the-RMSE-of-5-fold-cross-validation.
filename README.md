@@ -137,6 +137,7 @@ movie-matrix-completion/
 ├── .gitignore         # Git忽略配置
 ├── LICENSE            # MIT许可证
 └── README.md          # 项目说明
+```
 
 ## 📊 预期结果
 
